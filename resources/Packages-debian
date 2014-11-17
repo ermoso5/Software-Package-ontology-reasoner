@@ -1,0 +1,1502 @@
+Package: 0ad
+Version: 0~r11863-2
+Installed-Size: 8260
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: 0ad-data (>= 0~r11863), 0ad-data (<= 0~r11863-2), gamin | fam, libboost-signals1.49.0 (>= 1.49.0-1), libc6 (>= 2.11), libcurl3-gnutls (>= 7.16.2), libenet1a, libgamin0 | libfam0, libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libjpeg8 (>= 8c), libmozjs185-1.0 (>= 1.8.5-1.0.0+dfsg), libnvtt2, libopenal1, libpng12-0 (>= 1.2.13-4), libsdl1.2debian (>= 1.2.11), libstdc++6 (>= 4.6), libvorbisfile3 (>= 1.1.2), libwxbase2.8-0 (>= 2.8.12.1), libwxgtk2.8-0 (>= 2.8.12.1), libx11-6, libxcursor1 (>> 1.1.2), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.0)
+Pre-Depends: dpkg (>= 1.15.6~)
+Description: Real-time strategy game of ancient warfare
+Homepage: http://www.wildfiregames.com/0ad/
+Description-md5: d943033bedada21853d2ae54a2578a7b
+Tag: game::strategy, implemented-in::c++, interface::x11, role::program,
+ uitoolkit::sdl, uitoolkit::wxwidgets, use::gameplaying,
+ x11::application
+Section: games
+Priority: optional
+Filename: pool/main/0/0ad/0ad_0~r11863-2_amd64.deb
+Size: 2260694
+MD5sum: cf71a0098c502ec1933dea41610a79eb
+SHA1: aa4a1fdc36498f230b9e38ae0116b23be4f6249e
+SHA256: e28066103ecc6996e7a0285646cd2eff59288077d7cc0d22ca3489d28d215c0a
+
+Package: 0ad-dbg
+Source: 0ad
+Version: 0~r11863-2
+Installed-Size: 46288
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: 0ad (= 0~r11863-2)
+Pre-Depends: dpkg (>= 1.15.6~)
+Description: Real-time strategy game of ancient warfare (debug)
+Homepage: http://www.wildfiregames.com/0ad/
+Description-md5: a858b67397d1d84d8b4cac9d0deae0d7
+Section: debug
+Priority: extra
+Filename: pool/main/0/0ad/0ad-dbg_0~r11863-2_amd64.deb
+Size: 45083986
+MD5sum: 3427a89ced22431a1d8434354f0c6df4
+SHA1: bce2c9786d514fa09bcafd3a6089f91b11d33ab1
+SHA256: 3ff97249e6575f994e7b87fc623b5aa2c3f372a0291135047785f28adcd9e25b
+
+Package: 0ad-data
+Version: 0~r11863-1
+Installed-Size: 713566
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: all
+Depends: tex-gyre, ttf-dejavu-core
+Pre-Depends: dpkg (>= 1.15.6~)
+Suggests: 0ad
+Description: Real-time strategy game of ancient warfare (data)
+Homepage: http://wildfiregames.com/0ad/
+Description-md5: df27feb8d9352e2909a3e6cd62916daa
+Section: games
+Priority: optional
+Filename: pool/main/0/0ad-data/0ad-data_0~r11863-1_all.deb
+Size: 316500336
+MD5sum: aa036194b1d1bffa377b545b69d41c8e
+SHA1: 91b215066190b099dd75532b7843062517582acf
+SHA256: b6e93331b7b1cc30ad7fa60eed9a233d0ab435ae0eacc4fcc8989c4266ed1511
+
+Package: 2ping
+Version: 2.0-1
+Installed-Size: 134
+Maintainer: Ryan Finnie <ryan@finnie.org>
+Architecture: all
+Depends: perl
+Recommends: perl-modules, libio-socket-inet6-perl
+Suggests: libdigest-sha-perl, libdigest-crc-perl
+Description: Ping utility to determine directional packet loss
+Homepage: http://www.finnie.org/software/2ping/
+Description-md5: 2543c220a763445976d1348c5b593743
+Tag: implemented-in::perl, interface::commandline, protocol::ip,
+ role::program, scope::utility, use::analysing, use::measuring,
+ works-with::network-traffic
+Section: net
+Priority: optional
+Filename: pool/main/2/2ping/2ping_2.0-1_all.deb
+Size: 30724
+MD5sum: a815f73f1894e7a12619d37d3dbc1bbc
+SHA1: 19baa38dcc480a218ac4db24ca6f0be6df04a1f6
+SHA256: fd4396ef6793a8fcdf38e751ae60ce513cf4389b5aeebb51af13a8f7995fd521
+
+Package: 2vcard
+Version: 0.5-3
+Installed-Size: 108
+Maintainer: Martin Albisetti <argentina@gmail.com>
+Architecture: all
+Description: perl script to convert an addressbook to VCARD file format
+Description-md5: f6f2cb6577ba2821b51ca843d147b3e1
+Tag: implemented-in::perl, role::program, use::converting, works-with::pim
+Section: utils
+Priority: optional
+Filename: pool/main/2/2vcard/2vcard_0.5-3_all.deb
+Size: 14300
+MD5sum: d831fd82a8605e9258b2314a7d703abe
+SHA1: e903a05f168a825ff84c87326898a182635f8175
+SHA256: 2be9a86f0ec99b1299880c6bf0f4da8257c74a61341c14c103b70c9ec04b10ec
+
+Package: libadminutil-data
+Source: 389-adminutil
+Version: 1.1.15-1
+Installed-Size: 39
+Maintainer: Debian 389ds Team <pkg-fedora-ds-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Description: Utility library for 389ds administration -- data files
+Homepage: http://directory.fedoraproject.org
+Description-md5: a71941672ff5ae93fe98cb8f6e76ed27
+Section: libs
+Priority: extra
+Filename: pool/main/3/389-adminutil/libadminutil-data_1.1.15-1_amd64.deb
+Size: 4126
+MD5sum: 0487fde081aeb833bbb5b05bb617b2d3
+SHA1: adada0459e456b7c6060709ff6472c07d446b6ba
+SHA256: 8df90374103c86888e974e1701bf10f1efa616aedfe4a143f8ef746ea162687a
+
+Package: libadminutil-dev
+Source: 389-adminutil
+Version: 1.1.15-1
+Installed-Size: 314
+Maintainer: Debian 389ds Team <pkg-fedora-ds-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libadminutil0 (= 1.1.15-1), libnspr4-dev, libnss3-dev, libicu-dev, libldap2-dev (>= 2.4.28)
+Description: Utility library for 389ds administration - development files
+Homepage: http://directory.fedoraproject.org
+Description-md5: fd0efd618ee3965450d8a9443d5691ea
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: extra
+Filename: pool/main/3/389-adminutil/libadminutil-dev_1.1.15-1_amd64.deb
+Size: 80176
+MD5sum: c44dfe600e7ead1bc77ac8032981d47f
+SHA1: 74d8430afad4c656b3f1afe2ff07f26d6a1be637
+SHA256: e1dd695d4cac02df30ba0367d41a911517a8a7da1ddb2837c73b1d99c0f1efe7
+
+Package: libadminutil0
+Source: 389-adminutil
+Version: 1.1.15-1
+Installed-Size: 184
+Maintainer: Debian 389ds Team <pkg-fedora-ds-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.7), libicu48 (>= 4.8-1), libldap-2.4-2 (>= 2.4.7), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.12.0~1.9b1), libadminutil-data (>= 1.1.15-1)
+Pre-Depends: multiarch-support
+Description: Utility library for 389ds administration
+Multi-Arch: same
+Homepage: http://directory.fedoraproject.org
+Description-md5: 505c6a4fb43f7eddb0c704bc9607d8b8
+Tag: role::shared-lib
+Section: libs
+Priority: extra
+Filename: pool/main/3/389-adminutil/libadminutil0_1.1.15-1_amd64.deb
+Size: 63872
+MD5sum: 21a68e2ad330c02234bb72ee8df7e0c0
+SHA1: 90bdb1f5526afb6abf094371813e7db9f68ace6b
+SHA256: 0b7d57232df5991ac29ab3d96d1ece6911de5411cb41254587ac7d063d1f1687
+
+Package: 389-console
+Version: 1.1.7-1
+Installed-Size: 104
+Maintainer: Debian 389ds Team <pkg-fedora-ds-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: libidm-console-framework-java, openjdk-6-jre | java6-runtime
+Description: 389 Management Console
+Homepage: http://directory.fedoraproject.org
+Description-md5: 187e28968b69fb6bd134903810624c7c
+Section: java
+Priority: extra
+Filename: pool/main/3/389-console/389-console_1.1.7-1_all.deb
+Size: 64104
+MD5sum: f88ee74a636bd502860941caff0992ba
+SHA1: 800db40d79245ad1f60a396a25676d6367928aaf
+SHA256: 8ec2fa2ce9e35933296d72d3835d140339d10ef8c683684976c512d2f65af2f2
+
+Package: 3dchess
+Version: 0.8.1-17
+Installed-Size: 160
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5), libx11-6, libxpm4, libxt6, xaw3dg (>= 1.5+E-1)
+Description: Play chess across 3 boards!
+Description-md5: 12d01b96d7645ee302ebc29cde999e92
+Tag: game::board, game::board:chess, game::strategy, implemented-in::c,
+ interface::x11, role::program, uitoolkit::xlib, use::gameplaying,
+ x11::application
+Section: games
+Priority: optional
+Filename: pool/main/3/3dchess/3dchess_0.8.1-17_amd64.deb
+Size: 37962
+MD5sum: 7f7658174eb4aaa0a6239e59082be7ab
+SHA1: 2d157e7ec55829d0767f69130566715f765aa42b
+SHA256: a71b8e23667b5c9cdc8e0b633984c9e33d9793f5b542f3e2865cdc77e29ae351
+
+Package: 3depict
+Source: 3depict (0.0.10-1)
+Version: 0.0.10-1+b1
+Installed-Size: 3440
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5), libfreetype6 (>= 2.2.1), libftgl2 (>= 2.1.3~rc5), libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libglu1-mesa | libglu1, libgomp1 (>= 4.4), libgsl0ldbl (>= 1.9), libmgl5 (>= 1.11), libpng12-0 (>= 1.2.13-4), libqhull5 (>= 2003.1), libstdc++6 (>= 4.6), libwxbase2.8-0 (>= 2.8.12.1), libwxgtk2.8-0 (>= 2.8.12.1), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Description: visualisation and analysis for single valued point data
+Homepage: http://threedepict.sourceforge.net/index.html
+Description-md5: 246db3da16c5305f24976464271087a5
+Tag: interface::x11, role::program, uitoolkit::wxwidgets, use::analysing,
+ x11::application
+Section: science
+Priority: optional
+Filename: pool/main/3/3depict/3depict_0.0.10-1+b1_amd64.deb
+Size: 2132066
+MD5sum: 9ff950694b8b332101715cbc572b7e08
+SHA1: 00a0c3ef9c7a031d8eced3667ea36f09efb2b48a
+SHA256: 3b7c6eb055895dc5fb848e66239985ca774a9e384b8afb46726cfac09d420763
+
+Package: 4digits
+Version: 1.1.2-1
+Installed-Size: 540
+Maintainer: Yongzhi Pan <panyongzhi@gmail.com>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5), python, python-glade2, python-gnome2
+Description: guess-the-number game, aka Bulls and Cows
+Homepage: http://sourceforge.net/projects/fourdigits/
+Description-md5: 6851508624788c15c02a62150ab9f449
+Tag: game::puzzle, interface::commandline, interface::x11, role::program,
+ uitoolkit::gtk, use::gameplaying, x11::application
+Section: games
+Priority: extra
+Filename: pool/main/4/4digits/4digits_1.1.2-1_amd64.deb
+Size: 398520
+MD5sum: d4d8eae7a7ce7a9f0caf8c33e6d8ab84
+SHA1: eeacb23e0124ae005f4ad2a063e96d0dc9ef8d4b
+SHA256: 38756c527cc1a4c4671f2c281655cdb7718c03f07b4dfb7e007708e84dd4ad8a
+
+Package: 4g8
+Version: 1.0-3
+Installed-Size: 72
+Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.6.1-1), libnet1 (>= 1.1.2-1), libpcap0.8 (>= 0.9.3-1)
+Description: Packet Capture and Interception for Switched Networks
+Description-md5: 08a3e421414ebaacb3294625688dc573
+Tag: admin::monitoring, implemented-in::c, protocol::ip, protocol::tcp,
+ protocol::udp, role::program, use::analysing,
+ works-with::network-traffic
+Section: net
+Priority: optional
+Filename: pool/main/4/4g8/4g8_1.0-3_amd64.deb
+Size: 13742
+MD5sum: 4a1d179bba41aa5528bb4906a5606bf1
+SHA1: 590524e4491473c8edd46fe8adf11669ff997ee3
+SHA256: 66c55856b08025b5312ae26b83663a3980560c251c2c57a028abee33d886a5f0
+
+Package: 4store
+Version: 1.1.4-2
+Installed-Size: 2140
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Architecture: amd64
+Depends: adduser, lsb-base (>= 3.2-13), netbase, libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.7), libglib2.0-0 (>= 2.16.0), libncurses5 (>= 5.5-5~), libpcre3 (>= 8.10), libraptor2-0 (>= 2.0.6), librasqal3 (>= 0.9.28), libreadline6 (>= 6.0), libstemmer0d (>= 0+svn527), libtinfo5, libxml2 (>= 2.6.27), zlib1g (>= 1:1.1.4)
+Recommends: avahi-daemon
+Description: RDF database storage and query engine -- database daemon
+Homepage: http://www.4store.org/
+Description-md5: bd19d7433c49c8266d9772c0651d88a4
+Tag: field::TODO, implemented-in::c, interface::daemon, network::server,
+ role::program, scope::application, uitoolkit::ncurses, use::storing,
+ works-with-format::TODO, works-with::db, works-with::graphs
+Section: utils
+Priority: extra
+Filename: pool/main/4/4store/4store_1.1.4-2_amd64.deb
+Size: 928868
+MD5sum: a07d36b67457a27436d366af092bf7f2
+SHA1: db589a5965c8f7fc7183e5bc0cdd83377c9de73d
+SHA256: 5cf0270a83e043cc2749ab6b048370f4526217e37ec0bbaf84c967fb36a4f95c
+
+Package: lib4store-dev
+Source: 4store
+Version: 1.1.4-2
+Installed-Size: 197
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Architecture: amd64
+Depends: lib4store0 (= 1.1.4-2)
+Description: RDF database storage and query engine -- development files
+Homepage: http://www.4store.org/
+Description-md5: ee61913b6945a5338d5b8599ffc264af
+Tag: devel::lang:c, devel::library, implemented-in::c, role::devel-lib
+Section: libdevel
+Priority: extra
+Filename: pool/main/4/4store/lib4store-dev_1.1.4-2_amd64.deb
+Size: 62618
+MD5sum: 6d77dcfd606d5ab88767d9c5a1966203
+SHA1: 9a264a1421cfd8b9b1c6f8f5ea5a5331cf5744d6
+SHA256: 978651b48b78d95366c5c5262cd47f60e74d7b1a6b741c95229959bef31184db
+
+Package: lib4store0
+Source: 4store
+Version: 1.1.4-2
+Installed-Size: 136
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Architecture: amd64
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.7), libglib2.0-0 (>= 2.12.0), libncurses5 (>= 5.5-5~), libpcre3 (>= 8.10), libreadline6 (>= 6.0), libtinfo5
+Suggests: lib4store-dev
+Description: RDF database storage and query engine -- shared library
+Homepage: http://www.4store.org/
+Description-md5: 810b0d8ec757bc69bf3c9a65bc694819
+Tag: implemented-in::c, role::shared-lib
+Section: libs
+Priority: extra
+Filename: pool/main/4/4store/lib4store0_1.1.4-2_amd64.deb
+Size: 56704
+MD5sum: 5b6f10adcf7df853f37c7a0fc42ed10b
+SHA1: cbd5e5781798aaa070ab5a8431bb577c6a397a25
+SHA256: b7ab02e013dc8767f88106f91b8c0c1551165e8c8138b8b1dadcb346784ef287
+
+Package: 6tunnel
+Version: 0.11rc2-7
+Installed-Size: 64
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Architecture: amd64
+Depends: libc6 (>= 2.4)
+Description: TCP proxy for non-IPv6 applications
+Homepage: http://toxygen.net/6tunnel
+Description-md5: 48c79c738bde16847fbc9577329a56f0
+Tag: interface::daemon, network::server, network::vpn, protocol::ipv6,
+ role::program, use::proxying
+Section: net
+Priority: optional
+Filename: pool/main/6/6tunnel/6tunnel_0.11rc2-7_amd64.deb
+Size: 15410
+MD5sum: c23b49e418a9b79e434423b66ff62bbc
+SHA1: e5f3a97cc0181de5112e45c91e1e1d5f353ce544
+SHA256: c7d4ec5755893c756867704e3aa116e9cb8c96761478cd07a532f73ff2eb5fb8
+
+Package: 7kaa
+Version: 2.14.3-1
+Installed-Size: 1800
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: 7kaa-data (>= 2.13), libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libopenal1, libsdl-net1.2, libsdl1.2debian (>= 1.2.10-1), libstdc++6 (>= 4.1.1)
+Suggests: 7kaa-dbg (= 2.14.3-1)
+Description: Seven Kingdoms Ancient Adversaries: real-time strategy game
+Homepage: http://www.7kfans.com/
+Description-md5: 37b0a07b664e6e2e6b3370a23d7a49cb
+Tag: game::strategy, interface::x11, role::program, uitoolkit::sdl,
+ use::gameplaying, x11::application
+Section: games
+Priority: optional
+Filename: pool/main/7/7kaa/7kaa_2.14.3-1_amd64.deb
+Size: 851654
+MD5sum: c7c91041238d7fe507a687b45f0c291e
+SHA1: 684f81f854fd0bacfad7cb6151f354fa227103ed
+SHA256: f7353a06ac56f6869ea29b5118273c514d43e75bfee8ead2271f2aab81d1b5ad
+
+Package: 7kaa-dbg
+Source: 7kaa
+Version: 2.14.3-1
+Installed-Size: 13896
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: 7kaa (= 2.14.3-1)
+Description: Seven Kingdoms Ancient Adversaries - debug
+Homepage: http://www.7kfans.com/
+Description-md5: 94b511da766e562a77d9789e2b8640a7
+Tag: role::debug-symbols
+Section: debug
+Priority: extra
+Filename: pool/main/7/7kaa/7kaa-dbg_2.14.3-1_amd64.deb
+Size: 5065892
+MD5sum: 0d09d77d7c70d5201db72558e29ff7d4
+SHA1: a59e2f810a0c1fa3782324f862b7ecf2ed81ee38
+SHA256: e0c36d599a4ba2b73531c3cc1561cf8791b434322feeea5231047a33a24d5ef8
+
+Package: 7kaa-data
+Version: 2.13-1
+Installed-Size: 104600
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: all
+Recommends: 7kaa
+Description: Seven Kingdoms Ancient Adversaries - game data
+Homepage: http://www.enlight.com/7k/
+Description-md5: 1a73c20d523b558c525029d969f4827f
+Tag: role::app-data
+Section: games
+Priority: optional
+Filename: pool/main/7/7kaa-data/7kaa-data_2.13-1_all.deb
+Size: 40762490
+MD5sum: 9f7754a19b8e3ec3e765513b364037de
+SHA1: 5f4b386b5ddc2161b95b57199496f04eb3f3ca39
+SHA256: 7d6b2bbadd8a60b120bd2a689472ad0f44875ebe0446f0e4e923cdc2aa748415
+
+Package: 9base
+Version: 1:6-5
+Installed-Size: 4464
+Maintainer: Gergely Nagy <algernon@madhouse-project.org>
+Architecture: amd64
+Depends: libc6 (>= 2.7)
+Suggests: wmii2
+Description: Plan 9 userland tools
+Homepage: http://tools.suckless.org/9base
+Description-md5: 5faa0be5b1e9e3a928ae7055a1d7cbdd
+Tag: admin::configuring, devel::code-generator, devel::interpreter,
+ implemented-in::c, interface::commandline, role::program,
+ scope::utility, works-with::file
+Section: utils
+Priority: optional
+Filename: pool/main/9/9base/9base_6-5_amd64.deb
+Size: 1773426
+MD5sum: 7d547d33bbe8d030ec26b4e76d592132
+SHA1: d4aed259393c793bc519c98b0018ccefc0119ed3
+SHA256: fd9ad493e21e22e0f11c114f24018d1932b9853422a19caf44736df850dd4bd3
+
+Package: 9menu
+Version: 1.8-5
+Installed-Size: 72
+Maintainer: Daniel Echeverry <epsilon77@gmail.com>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5), libx11-6
+Description: Creates X menus from the shell
+Description-md5: 33212022c95de2da6fad4458526c39d8
+Tag: implemented-in::c, interface::x11, role::program, scope::utility,
+ x11::application
+Section: x11
+Priority: optional
+Filename: pool/main/9/9menu/9menu_1.8-5_amd64.deb
+Size: 15844
+MD5sum: b3fd57078f365421ba30b9da96f328ac
+SHA1: 2efb690742b3268e266a8e9a19f8565abb82d298
+SHA256: 6929975dbb40843988b18aac5eac046364e0c74d68950b173211d0eb57d461df
+
+Package: 9wm
+Version: 1.2-9
+Installed-Size: 116
+Maintainer: Decklin Foster <decklin@red-bean.com>
+Architecture: amd64
+Provides: x-window-manager
+Depends: libc6 (>= 2.7-1), libx11-6, libxext6
+Suggests: 9menu
+Description: emulation of the Plan 9 window manager 8-1/2
+Description-md5: 41ad7a3fb8957b989a3bd02e7e167200
+Tag: interface::x11, role::program, uitoolkit::xlib, x11::window-manager
+Section: x11
+Priority: optional
+Filename: pool/main/9/9wm/9wm_1.2-9_amd64.deb
+Size: 27812
+MD5sum: 1d4db0a94542d5185417fcf443efc990
+SHA1: ea826c78001a280c6829cf11247c91f79011c0d3
+SHA256: f18e41af1eaccf2a2eca4eb0d10141710443cc944702aa952c4085def26f5601
+
+Package: a2jmidid
+Version: 7+dfsg0-1
+Installed-Size: 126
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libasound2 (>> 1.0.24.1), libc6 (>= 2.3), libdbus-1-3 (>= 1.0.2), libjack-jackd2-0 (>= 1.9.5~dfsg-14) | libjack-0.116, python
+Description: Daemon for exposing legacy ALSA MIDI in JACK MIDI systems
+Homepage: http://home.gna.org/a2jmidid/
+Description-md5: a182a4ee1593f675a64da0a57440bb9a
+Tag: implemented-in::c, role::program, sound::midi
+Section: sound
+Priority: optional
+Filename: pool/main/a/a2jmidid/a2jmidid_7+dfsg0-1_amd64.deb
+Size: 35412
+MD5sum: 594e3272e18cf08fdcbb6fbe8cfca092
+SHA1: 4219f3d8a64414170b2ee5c2b8e6bfa93ac61943
+SHA256: 69a6aa74e75ee22742f1d087fc4fe8c18458158c6489488256999a7d389c4e02
+
+Package: a2ps
+Version: 1:4.14-1.1
+Installed-Size: 4292
+Maintainer: Masayuki Hatta (mhatta) <mhatta@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.7), libpaper1, dpkg (>= 1.15.4) | install-info, file, psutils
+Recommends: bzip2, lpr | rlpr | cupsys-client, wdiff
+Suggests: emacsen-common, groff, ghostscript, gv, html2ps, graphicsmagick-imagemagick-compat | imagemagick, texlive-base-bin, t1-cyrillic
+Description: GNU a2ps - 'Anything to PostScript' converter and pretty-printer
+Description-md5: 9457a92267bd7683dddba1c4198139e2
+Tag: devel::prettyprint, interface::commandline, role::program,
+ scope::utility, suite::gnu, use::converting, use::printing,
+ works-with-format::postscript, works-with::text
+Section: text
+Priority: optional
+Filename: pool/main/a/a2ps/a2ps_4.14-1.1_amd64.deb
+Size: 954396
+MD5sum: 1e9f6d5a3ddd13781cbefea34669568f
+SHA1: 31e6d5929caa4c4b1b23cff9f35b153fa8a9890e
+SHA256: c8ee06df7628ea7bbbac461d93cb7c2408ef2be96cc8ff204909fa0f069fe02e
+
+Package: liba52-0.7.4
+Source: a52dec
+Version: 0.7.4-16
+Installed-Size: 124
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5)
+Description: library for decoding ATSC A/52 streams
+Homepage: http://liba52.sourceforge.net/
+Description-md5: 1f6861ed8e347457021bf8275aeb3bab
+Tag: implemented-in::c, role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/a/a52dec/liba52-0.7.4_0.7.4-16_amd64.deb
+Size: 34492
+MD5sum: 354e840aa1b4fd98f218615673717d88
+SHA1: 34dbe31e7f34572d887c0a706b31abd8b4a87cb7
+SHA256: 5ef801599b67d46c43a3f30b29acb020ab343d5fc436b1478dc8c2762d808d44
+
+Package: liba52-0.7.4-dev
+Source: a52dec
+Version: 0.7.4-16
+Installed-Size: 216
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: a52dec, a52dec-dev, liba52-dev
+Provides: a52dec, a52dec-dev, liba52-dev
+Depends: liba52-0.7.4 (= 0.7.4-16), libc6 (>= 2.2.5)
+Conflicts: a52dec, a52dec-dev, liba52-dev
+Description: library for decoding ATSC A/52 streams (development)
+Homepage: http://liba52.sourceforge.net/
+Description-md5: a008e9348ef0391e0dd7eac39d37af19
+Tag: devel::lang:c, devel::library, implemented-in::c, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/a/a52dec/liba52-0.7.4-dev_0.7.4-16_amd64.deb
+Size: 53266
+MD5sum: e16692c5d54e6b81f60273a20800bfef
+SHA1: 5a7543e0bf2d7323b2084c3ff41756d345176dd7
+SHA256: 0ee1152a86192af245f219785908b4f9e12519978880a3e6573e54218dba9e15
+
+Package: a56
+Version: 1.3-6
+Installed-Size: 228
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.7)
+Description: Motorola DSP56001 assembler
+Homepage: http://www.zdomain.com/a56.html
+Description-md5: 11786f4ef1e6d108989e20ffe2845221
+Tag: devel::machinecode, implemented-in::c, role::program
+Section: devel
+Priority: extra
+Filename: pool/main/a/a56/a56_1.3-6_amd64.deb
+Size: 39706
+MD5sum: 5e3fcfe3ee27d7ca9f933f82b7ec69f1
+SHA1: 89318048e58e5c22bf1c5d51eb93dfb10dc866e9
+SHA256: ac326001ef6176bd5fe250714fac86e9885d6c6556ec55911e39b4622562a8c1
+
+Package: a7xpg
+Version: 0.11.dfsg1-7
+Installed-Size: 1488
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: a7xpg-data (= 0.11.dfsg1-7), libc6 (>= 2.3.2), libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libsdl-mixer1.2, libsdl1.2debian (>= 1.2.10-1), zlib1g (>= 1:1.1.4)
+Description: chase action game
+Homepage: http://www.asahi-net.or.jp/~cs8k-cyu/windows/a7xpg_e.html
+Description-md5: e38bd4430a3538c59e6acec068b6f645
+Tag: game::arcade, implemented-in::TODO, interface::3d, interface::x11,
+ role::program, uitoolkit::sdl, use::gameplaying, x11::application
+Section: games
+Priority: extra
+Filename: pool/main/a/a7xpg/a7xpg_0.11.dfsg1-7_amd64.deb
+Size: 176814
+MD5sum: e5192fe235a7c044135b2449c0f438b0
+SHA1: 86afab92a79f6b78ee70e1533514604627188d3b
+SHA256: 58920aef2cc2bbc55742573406b33e853d388cc5b5f0592525f15f2ca0d6deb6
+
+Package: a7xpg-data
+Source: a7xpg
+Version: 0.11.dfsg1-7
+Installed-Size: 3519
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: all
+Recommends: a7xpg
+Description: chase action game - game data
+Homepage: http://www.asahi-net.or.jp/~cs8k-cyu/windows/a7xpg_e.html
+Description-md5: 1ab7e6e42cf00b0a9ea4f59b9fbe4717
+Tag: made-of::audio, role::app-data
+Section: games
+Priority: extra
+Filename: pool/main/a/a7xpg/a7xpg-data_0.11.dfsg1-7_all.deb
+Size: 3528054
+MD5sum: 5d543c74da916de7f60423c9ad5417e9
+SHA1: a9bd263e0d3b699d63afad1b9fe228a8e9857cc4
+SHA256: 6a09c29633de37f0d8aa96aa83be7b14a68019facdea648a0559485072a5838a
+
+Package: aa3d
+Version: 1.0-8
+Installed-Size: 76
+Maintainer: Uwe Hermann <uwe@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5)
+Description: ASCII art stereogram generator
+Homepage: http://aa-project.sourceforge.net/aa3d/
+Description-md5: 258e8b120f0545ac1a4843f1beb1ded5
+Tag: game::toys, interface::commandline, role::program, scope::utility,
+ use::viewing
+Section: graphics
+Priority: optional
+Filename: pool/main/a/aa3d/aa3d_1.0-8_amd64.deb
+Size: 9086
+MD5sum: 7349e2f8c9d52f781322c46f070a437a
+SHA1: 562b96a4cd8be74d09c74c4f2c4e4c96dc3b1cb3
+SHA256: 6e813f48deb7efb52280b67e54ef64477a7613cae478c8b415f706194c2f71ab
+
+Package: libaac-tactics-coq
+Source: aac-tactics
+Version: 0.2.pl2-7
+Installed-Size: 2445
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Architecture: all
+Provides: aac-tactics
+Depends: libaac-tactics-ocaml (>= 0.2.pl2-7), coq-8.3pl4+3.12.1
+Description: Coq tactics for reasoning modulo AC (theories)
+Homepage: http://sardes.inrialpes.fr/~braibant/aac_tactics/
+Description-md5: d468e31e016a5d91fa8d79cdff35cd0d
+Tag: role::shared-lib
+Section: math
+Priority: optional
+Filename: pool/main/a/aac-tactics/libaac-tactics-coq_0.2.pl2-7_all.deb
+Size: 320756
+MD5sum: 6f21314fa0b532ff876ee735bfac8827
+SHA1: ab3587301015e7df69abecbda02eedafda232bec
+SHA256: a08e22c0b660f3102b51dea9b6ae7b1d90a3b31528247a2493681b55e00b5db0
+
+Package: libaac-tactics-ocaml
+Source: aac-tactics
+Version: 0.2.pl2-7
+Installed-Size: 551
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Architecture: amd64
+Provides: libaac-tactics-ocaml-6vg38
+Depends: libcoq-ocaml-j25h3, ocaml-base-nox-3.12.1, libc6 (>= 2.2.5)
+Recommends: libaac-tactics-coq
+Enhances: coq
+Description: Coq tactics for reasoning modulo AC (plugin)
+Homepage: http://sardes.inrialpes.fr/~braibant/aac_tactics/
+Description-md5: d6af9954d3de40a51f6f9b94f6b858ba
+Section: ocaml
+Priority: optional
+Filename: pool/main/a/aac-tactics/libaac-tactics-ocaml_0.2.pl2-7_amd64.deb
+Size: 145306
+MD5sum: 3459528750be6339f90e5b414da56397
+SHA1: 463a6e50fc265a94dbc69d23056b19647c2907d7
+SHA256: 852260ebe6e4e94de2eb467c15e132d8dace00780c5ab222105007bcf800ab72
+
+Package: libaac-tactics-ocaml-dev
+Source: aac-tactics
+Version: 0.2.pl2-7
+Installed-Size: 643
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Architecture: amd64
+Provides: libaac-tactics-ocaml-dev-6vg38
+Depends: camlp5-jr8l7, libaac-tactics-ocaml-6vg38, libcoq-ocaml-dev-j25h3, ocaml-nox-3.12.1
+Description: Coq tactics for reasoning modulo AC (devt files)
+Homepage: http://sardes.inrialpes.fr/~braibant/aac_tactics/
+Description-md5: f1d42c78767b8301dd187f0cd302e0cf
+Tag: devel::library, role::devel-lib
+Section: ocaml
+Priority: optional
+Filename: pool/main/a/aac-tactics/libaac-tactics-ocaml-dev_0.2.pl2-7_amd64.deb
+Size: 132996
+MD5sum: 332e92f8aa16dc786ca57d424d73aab4
+SHA1: 520825520c46a05ca036984330d3630a3c54e719
+SHA256: b61f9f7832727a2b7ca83b342f73d6f2bb3b512351752517c28b8f462de799dd
+
+Package: python-aafigure
+Source: aafigure
+Version: 0.5-3
+Installed-Size: 165
+Maintainer: Jakub Wilk <jwilk@debian.org>
+Architecture: all
+Depends: python, python-support (>= 0.90.0)
+Recommends: python-reportlab, python-imaging, ttf-liberation
+Description: ASCII art to image converter
+Homepage: https://launchpad.net/aafigure
+Description-md5: 881d5554838b3a68b78f911a295fba35
+Tag: implemented-in::python, interface::commandline, role::program,
+ scope::utility, use::converting, works-with-format::pdf,
+ works-with-format::png, works-with-format::svg, works-with::image
+Section: python
+Priority: optional
+Filename: pool/main/a/aafigure/python-aafigure_0.5-3_all.deb
+Size: 40556
+MD5sum: 1d23cf27f77366723a142268e2b6d1bc
+SHA1: 05b35bc7de411e1862dffcfdf606ed666e61c7d7
+SHA256: f9aa16d704d63d4e223bd2e13bffd302584806ae3c6dbe0b55487e12861a3838
+
+Package: libaa-bin
+Source: aalib
+Version: 1.4p5-40
+Installed-Size: 83
+Maintainer: Gergely Nagy <algernon@madhouse-project.org>
+Architecture: amd64
+Replaces: aalib-bin
+Provides: aalib-bin
+Depends: libaa1 (>= 1.4p5), libc6 (>= 2.4), libgpm2 (>= 1.20.4), libncurses5 (>= 5.5-5~), libslang2 (>= 2.2.4), libtinfo5, libx11-6
+Conflicts: aalib-bin
+Description: sample programs using aalib
+Homepage: http://aa-project.sourceforge.net/aalib/
+Description-md5: aceb0e45b1024860e2efa4f03f15d19a
+Tag: devel::examples, implemented-in::c, role::program
+Section: text
+Priority: optional
+Filename: pool/main/a/aalib/libaa-bin_1.4p5-40_amd64.deb
+Size: 11362
+MD5sum: 46568ef74c31036a8dd2de9d456a7ddc
+SHA1: e26f26f9d804e32649a116334263d8bcc4bfccde
+SHA256: 53b8a10779e650908c3f8ee759b9c0d7f721180b99fbbf07102bf44c465afe7d
+
+Package: libaa1
+Source: aalib
+Version: 1.4p5-40
+Installed-Size: 171
+Maintainer: Gergely Nagy <algernon@madhouse-project.org>
+Architecture: amd64
+Replaces: aalib1
+Provides: aalib1
+Depends: libc6 (>= 2.11), libgpm2 (>= 1.20.4), libncurses5 (>= 5.5-5~), libslang2 (>= 2.2.4), libtinfo5, libx11-6
+Pre-Depends: multiarch-support
+Description: ASCII art library
+Multi-Arch: same
+Homepage: http://aa-project.sourceforge.net/aalib/
+Description-md5: e2907f5353392e24d8f1f2a5e56005ac
+Tag: implemented-in::c, role::shared-lib, uitoolkit::ncurses,
+ use::converting, use::entertaining, use::playing, use::viewing,
+ works-with::image, works-with::video
+Section: libs
+Priority: optional
+Filename: pool/main/a/aalib/libaa1_1.4p5-40_amd64.deb
+Size: 63690
+MD5sum: 981d4feb1a770e81d8ac267df4e14896
+SHA1: 811df58aa8fe892a2011e03e82df38edaf27362c
+SHA256: 9ddadfc2ac4f260b4ed5cc6bfc6a101476968f8c098579ee42c1e25230892b6d
+
+Package: libaa1-dbg
+Source: aalib
+Version: 1.4p5-40
+Installed-Size: 201
+Maintainer: Gergely Nagy <algernon@madhouse-project.org>
+Architecture: amd64
+Depends: libaa1 (= 1.4p5-40)
+Description: ASCII art library, debugging symbols
+Multi-Arch: same
+Homepage: http://aa-project.sourceforge.net/aalib/
+Description-md5: 76947bc97a610d93762196ee9d41bc3d
+Tag: role::debug-symbols
+Section: debug
+Priority: extra
+Filename: pool/main/a/aalib/libaa1-dbg_1.4p5-40_amd64.deb
+Size: 114454
+MD5sum: 53c37614b97ce91baf2227606ae23c2d
+SHA1: e01a7294dee520747ced3172efe885b0c4a67f0e
+SHA256: 1800743c193f413539ff4e5b223eca10e760f7857c77af59e6aaa9fccc37dc00
+
+Package: libaa1-dev
+Source: aalib
+Version: 1.4p5-40
+Installed-Size: 392
+Maintainer: Gergely Nagy <algernon@madhouse-project.org>
+Architecture: amd64
+Replaces: aalib1-dev
+Depends: libaa1 (= 1.4p5-40), libx11-dev, libslang2-dev, libncurses5-dev, dpkg (>= 1.15.4) | install-info
+Conflicts: aalib1-dev
+Description: ASCII art library, development kit
+Homepage: http://aa-project.sourceforge.net/aalib/
+Description-md5: 79d999bcaca61f08c24bfa21e8c81ce2
+Tag: devel::lang:c, devel::library, implemented-in::c, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/a/aalib/libaa1-dev_1.4p5-40_amd64.deb
+Size: 145160
+MD5sum: 16d3ea5326268fe41426887c9402b6ca
+SHA1: 154f0dda2997c732d47a95be1a7af7e0702a55a0
+SHA256: 33700bd055e8f8d1251f1dc719fbd2d1c38d78abe553bcf76b53868c85095ea3
+
+Package: aaphoto
+Version: 0.41-1.1
+Installed-Size: 125
+Maintainer: Andras Horvath <mail@log69.com>
+Architecture: amd64
+Depends: libc6 (>= 2.3), libgomp1 (>= 4.2.1), libjasper1, libjpeg8 (>= 8c), libpng12-0 (>= 1.2.13-4)
+Description: Auto Adjust Photo, automatic color correction of photos
+Homepage: http://log69.com
+Description-md5: 18ea6fb428eb6d3251a8ec5e91ec82f4
+Tag: implemented-in::c, interface::commandline, role::program, use::editing,
+ works-with::image
+Section: graphics
+Priority: extra
+Filename: pool/main/a/aaphoto/aaphoto_0.41-1.1_amd64.deb
+Size: 47116
+MD5sum: 17bc0ce1ea2c66949f9a36b8adf60b79
+SHA1: 42f9c830d84357e01f6dd335bc863449d9646d8c
+SHA256: 17470d308bb9c861ad78faae4741d0d74e4296c4fde94f66f8802a1dfbf8aeca
+
+Package: abacas
+Version: 1.3.1-1
+Installed-Size: 156
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Architecture: all
+Depends: mummer
+Description: Algorithm Based Automatic Contiguation of Assembled Sequences
+Homepage: http://abacas.sourceforge.net/
+Description-md5: 4b41b5c137bf37850b7af48a1408fd37
+Tag: implemented-in::perl, role::program
+Section: science
+Priority: optional
+Filename: pool/main/a/abacas/abacas_1.3.1-1_all.deb
+Size: 26654
+MD5sum: be90ac0af73a3adcbd0fd5dd645a1aba
+SHA1: c3d6886623c311892e2eadb9c3a3611732f7ed9d
+SHA256: ad907f470e9e381ed5b25be77ff46beb81492c27a32d8b2a67fb249e0551ba33
+
+Package: abcde
+Version: 2.5.3-1
+Installed-Size: 282
+Maintainer: Jesus Climent <jesus.climent@hispalinux.es>
+Architecture: all
+Depends: cd-discid, wget, cdparanoia | icedax, vorbis-tools (>= 1.0beta4-1) | lame | flac | bladeenc | speex
+Recommends: vorbis-tools, libmusicbrainz-discid-perl, libwebservice-musicbrainz-perl, libdigest-sha-perl, mailx
+Suggests: eject, distmp3, id3 (>= 0.12), id3v2, eyed3, normalize-audio, vorbisgain, mkcue, mp3gain, atomicparsley
+Description: A Better CD Encoder
+Homepage: http://code.google.com/p/abcde/
+Description-md5: 48cf68daee5594952eb455e51c709626
+Tag: hardware::storage, hardware::storage:cd, interface::commandline,
+ role::program, scope::utility, use::converting, use::storing,
+ works-with-format::mp3, works-with-format::oggvorbis,
+ works-with-format::wav, works-with::audio
+Section: sound
+Priority: optional
+Filename: pool/main/a/abcde/abcde_2.5.3-1_all.deb
+Size: 122416
+MD5sum: 39dea85b30e3a3fbfb91162ecea7565e
+SHA1: b8e48e841d95e509972b7c883c5b2a7b961d8929
+SHA256: ecff853502195d2de145a62bf8750da02ec233a18132042e8e93ee5fcbc93985
+
+Package: abcm2ps
+Version: 6.6.17-1
+Installed-Size: 478
+Maintainer: Anselm Lingnau <lingnau@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.7)
+Description: Translates ABC music description files to PostScript (or SVG)
+Description-md5: 1ec2feb0d7d2ab5950a0c11c9fa7fd45
+Tag: field::arts, interface::commandline, role::program, scope::utility,
+ use::converting, works-with-format::postscript,
+ works-with::music-notation, works-with::text
+Section: text
+Priority: optional
+Filename: pool/main/a/abcm2ps/abcm2ps_6.6.17-1_amd64.deb
+Size: 249598
+MD5sum: 04023281aecd40b370f403193468840c
+SHA1: dde30d578c67963c5609104b24d019789055a849
+SHA256: 4babad653282e46d25b93cc1d775cb5c88c6746894ce955f3613ca01e9272e0b
+
+Package: abcmidi
+Version: 20070318-2
+Installed-Size: 424
+Maintainer: Anselm Lingnau <lingnau@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.6-1)
+Suggests: abcmidi-yaps | abcm2ps, timidity | pmidi | playmidi
+Description: converter from ABC to MIDI format and back
+Description-md5: d868667f8ba17e847a433bf18197f092
+Tag: interface::commandline, role::program, scope::utility, sound::midi,
+ use::converting, use::playing, works-with::audio,
+ works-with::music-notation
+Section: sound
+Priority: optional
+Filename: pool/main/a/abcmidi/abcmidi_20070318-2_amd64.deb
+Size: 209218
+MD5sum: 8b5202513af2453d6f447feed638d243
+SHA1: bccd5a2a5b422d69b3d8265eceb38da4cd2e9963
+SHA256: 328a0313e9c2b9dd941374057bcd45dd64cb6ef05d2877c96677a4697fff2f1d
+
+Package: abcmidi-yaps
+Source: abcmidi
+Version: 20070318-2
+Installed-Size: 212
+Maintainer: Anselm Lingnau <lingnau@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.6-1)
+Suggests: postscript-viewer, abcmidi
+Description: yet another ABC to PostScript converter
+Description-md5: 0ecae421794c0caf3e810de0ec1d8a48
+Tag: field::arts, interface::commandline, role::program, scope::utility,
+ use::converting, works-with-format::postscript,
+ works-with::music-notation, works-with::text
+Section: sound
+Priority: extra
+Filename: pool/main/a/abcmidi/abcmidi-yaps_20070318-2_amd64.deb
+Size: 81276
+MD5sum: da1b58bb3bfe2bff87738b9eb828e6e4
+SHA1: ed39a0b6b15f6a7d71e632b03569b45df9d14140
+SHA256: ef349fe474dda5f12752fc18d46466d98e59f4ea2c1bc35dfeb7faf0e431778c
+
+Package: abe
+Version: 1.1+dfsg-1
+Installed-Size: 142
+Maintainer: Bart Martens <bartm@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.4), libice6 (>= 1:1.0.0), libsdl-mixer1.2, libsdl1.2debian (>= 1.2.11), libsm6, libx11-6, libxext6, libxi6, libxmu6, libxt6, abe-data (= 1.1+dfsg-1)
+Description: Side-scrolling game named "Abe's Amazing Adventure"
+Homepage: http://abe.sourceforge.net/
+Description-md5: 596044af02adbdc05f5d4d7b4af2a338
+Tag: game::arcade, implemented-in::c, role::program, uitoolkit::sdl,
+ use::entertaining, use::gameplaying
+Section: games
+Priority: optional
+Filename: pool/main/a/abe/abe_1.1+dfsg-1_amd64.deb
+Size: 41316
+MD5sum: 0ce5b64e54c65dd50cf306ed338ee20e
+SHA1: 6b910e1271c6cf33b62972aa7e8c6c223fce3a1a
+SHA256: 68f369cda3f72bf34133a571b994e789fbd64e49e5461e668930f04712650a34
+
+Package: abe-data
+Source: abe
+Version: 1.1+dfsg-1
+Installed-Size: 4071
+Maintainer: Bart Martens <bartm@debian.org>
+Architecture: all
+Description: Side-scrolling game named "Abe's Amazing Adventure"
+Homepage: http://abe.sourceforge.net/
+Description-md5: 567bd7c169d64f2b29dc3c9580d11964
+Tag: game::arcade, role::app-data, use::gameplaying
+Section: games
+Priority: optional
+Filename: pool/main/a/abe/abe-data_1.1+dfsg-1_all.deb
+Size: 2862420
+MD5sum: cd34e22acb4120c1103973a96fb4caad
+SHA1: 8a23793ce56876566f9e8b2587be6f0f46b84ee4
+SHA256: 81c43c3861533b65113345be619e0f5217682015d740fad0f514ed895e0371f0
+
+Package: abgate
+Version: 1.1.6-1
+Installed-Size: 1061
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Provides: lv2-plugin
+Depends: libatk1.0-0 (>= 1.12.4), libatkmm-1.6-1 (>= 2.22.1), libc6 (>= 2.2.5), libcairo2 (>= 1.2.4), libcairomm-1.0-1 (>= 1.6.4), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libglibmm-2.4-1c2a (>= 2.31.22), libgtk2.0-0 (>= 2.8.0), libgtkmm-2.4-1c2a (>= 1:2.24.0), libpango1.0-0 (>= 1.14.0), libpangomm-1.4-1 (>= 2.27.1), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.5.3), libsigc++-2.0-0c2a (>= 2.0.2), libstdc++6 (>= 4.6)
+Description: LV2 noise gate plugin
+Homepage: http://abgate.sourceforge.net
+Description-md5: 8ed397bfde5cea8deeeec8e0c72aad99
+Tag: role::plugin, use::filtering, works-with::audio
+Section: sound
+Priority: optional
+Filename: pool/main/a/abgate/abgate_1.1.6-1_amd64.deb
+Size: 854286
+MD5sum: 66a9d1f226042a3c3ae701cd62775050
+SHA1: f6a108266ad57f9d661eb1e3f2cc88a010bc7b48
+SHA256: a9f20e3d2c4c8d04efddad9f08083b6181d428cbe3c5530907297d490524f4b7
+
+Package: abi-compliance-checker
+Version: 1.97.7-1
+Installed-Size: 1158
+Maintainer: Ryan Niebur <ryanryan52@gmail.com>
+Architecture: all
+Depends: perl, gcc, binutils
+Suggests: doc-base
+Description: tool to compare ABI compatibility of shared C/C++ library versions
+Homepage: http://ispras.linux-foundation.org/index.php/ABI_compliance_checker
+Description-md5: 540b577fa010ac3ef038ebd7b829f7bd
+Tag: devel::testing-qa, implemented-in::perl, role::program, use::checking
+Section: devel
+Priority: optional
+Filename: pool/main/a/abi-compliance-checker/abi-compliance-checker_1.97.7-1_all.deb
+Size: 227722
+MD5sum: 4a54bb739aaf48ceb3569a1e4b52e496
+SHA1: 0ae62bb7924d8714b5382d806c0245969e23b1d9
+SHA256: 0212bfc2ab8b6da0431d7187fc6a2e98aa78e383c5f00c64a634b419a796763e
+
+Package: abicheck
+Version: 1.2-5
+Installed-Size: 148
+Maintainer: Angel Ramos <seamus@debian.org>
+Architecture: all
+Depends: perl
+Description: binary compatibility checking tool
+Description-md5: a38281f070a37064c10336aabb05a83f
+Tag: devel::buildtools, devel::lang:c, devel::testing-qa,
+ implemented-in::perl, interface::commandline, role::program,
+ scope::utility, use::checking
+Section: devel
+Priority: optional
+Filename: pool/main/a/abicheck/abicheck_1.2-5_all.deb
+Size: 34316
+MD5sum: 164d97cd302fda187a023d34255a9f6a
+SHA1: faa9688c2528007168450a86f0c6b435117959c7
+SHA256: ace458e0cba4be6c7f33933a95c562b5d570d84b2dedb76d4fcaed7b67b965ad
+
+Package: r-cran-abind
+Source: abind
+Version: 1.4-0-1
+Installed-Size: 38
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Architecture: all
+Depends: r-base-core (>= 2.14.0)
+Description: GNU R abind multi-dimensional array combination function
+Description-md5: 37042a2fbff5fc5799359be10b269e00
+Tag: devel::lang:r, devel::library, field::statistics, implemented-in::r,
+ role::app-data, suite::gnu
+Section: gnu-r
+Priority: optional
+Filename: pool/main/a/abind/r-cran-abind_1.4-0-1_all.deb
+Size: 35402
+MD5sum: a18a6059e31b53ba4b576c8094831553
+SHA1: 1ded492eb747ebb4e0af6cc77119612855d1ac7e
+SHA256: ce3be608e280e83c40fa2baafbb44e1efd4bfbd58bb0ad28b99acba5d4b626f5
+
+Package: abinit
+Version: 5.3.4.dfsg-3
+Installed-Size: 13388
+Maintainer: Debian Scientific Computing Team <pkg-scicomp-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: libblas3gf | libblas.so.3gf | libatlas3gf-base, libc6 (>= 2.7-1), libgcc1 (>= 1:4.1.1-21), libgfortran3 (>= 4.3), liblapack3gf | liblapack.so.3gf | libatlas3gf-base
+Suggests: abinit-doc
+Description: A package for electronic structure calculations
+Homepage: http://www.abinit.org/
+Description-md5: e3898ff8b5a96b352423b6eee4f46d6e
+Tag: field::chemistry, field::physics, role::program
+Section: science
+Priority: extra
+Filename: pool/main/a/abinit/abinit_5.3.4.dfsg-3_amd64.deb
+Size: 5008842
+MD5sum: 78fe8c8690a2407a0b0e970b105ce826
+SHA1: f80db04ed520bd46f20e50e0da5970bfb91418c8
+SHA256: 7d22184a978f0e77fbbeaf448ad5469d62527eb4d0e24f4fd46cebcccdca64c9
+
+Package: abinit-doc
+Source: abinit
+Version: 5.3.4.dfsg-3
+Installed-Size: 25396
+Maintainer: Debian Scientific Computing Team <pkg-scicomp-devel@lists.alioth.debian.org>
+Architecture: all
+Description: A package for electronic structure calculations
+Homepage: http://www.abinit.org/
+Description-md5: a1aa525712ef24d4fa901ba0b777f5a8
+Tag: made-of::html, made-of::pdf, made-of::tex, role::documentation
+Section: doc
+Priority: extra
+Filename: pool/main/a/abinit/abinit-doc_5.3.4.dfsg-3_all.deb
+Size: 17017858
+MD5sum: e5123a9b545b06489abb0590dae9413b
+SHA1: 0e3af2448ca737e0421c31cd79ee9c4fdcc4ddde
+SHA256: ae9f311bd8d3547297f773e60f8626b3a389a42ed90de5eb1f620ff2b339e2ff
+
+Package: abiword
+Version: 2.9.2+svn20120603-8
+Installed-Size: 5768
+Maintainer: Dmitry Smirnov <onlyjob@member.fsf.org>
+Architecture: amd64
+Depends: libabiword-2.9 (>= 2.9.2+svn20120603), libc6 (>= 2.7), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libgcc1 (>= 1:4.1.1), libgcrypt11 (>= 1.4.5), libglib2.0-0 (>= 2.16.0), libgnutls26 (>= 2.12.17-0), libgsf-1-114 (>= 1.14.9), libgtk-3-0 (>= 3.0.0), libjpeg8 (>= 8c), libloudmouth1-0 (>= 1.3.3), libots0, libpng12-0 (>= 1.2.13-4), librdf0 (>= 1.0.15), libreadline6 (>= 6.0), libsoup2.4-1 (>= 2.4.0), libstdc++6 (>= 4.6), libtelepathy-glib0 (>= 0.13.0), libtidy-0.99-0, libwmf0.2-7 (>= 0.2.8.4), libwpd-0.9-9, libwpg-0.2-2, libwps-0.2-2, libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4), abiword-common (>= 2.9.2+svn20120603-8), gsfonts
+Recommends: abiword-plugin-grammar, abiword-plugin-mathview, aspell-en | aspell-dictionary, poppler-utils, fonts-liberation
+Description: efficient, featureful word processor with collaboration
+Homepage: http://www.abisource.com/
+Description-md5: ce3726e526f8ea76d20e3def9d407546
+Tag: implemented-in::c++, interface::x11, role::program, scope::application,
+ uitoolkit::gtk, use::editing, use::text-formatting,
+ works-with-format::html, works-with-format::tex, works-with::text,
+ x11::application
+Section: editors
+Priority: optional
+Filename: pool/main/a/abiword/abiword_2.9.2+svn20120603-8_amd64.deb
+Size: 1891060
+MD5sum: c03853651a2f9e5b04ce73f025075b18
+SHA1: 6f3ea0c9826a31eea0c9018d26d0e8e5b52689b7
+SHA256: 899dd8bf2a9b8e091d4afb804688fdffbf34a16398093171df9b7c0c8d021a70
+
+Package: abiword-common
+Source: abiword
+Version: 2.9.2+svn20120603-8
+Installed-Size: 10960
+Maintainer: Dmitry Smirnov <onlyjob@member.fsf.org>
+Architecture: all
+Description: efficient, featureful word processor with collaboration -- common files
+Homepage: http://www.abisource.com/
+Description-md5: 168081fc8391dc5eb8f29d63bb588273
+Tag: interface::x11, role::app-data, uitoolkit::gtk, use::editing,
+ use::text-formatting, works-with-format::html, works-with-format::tex,
+ works-with::text, x11::application
+Section: editors
+Priority: optional
+Filename: pool/main/a/abiword/abiword-common_2.9.2+svn20120603-8_all.deb
+Size: 2292710
+MD5sum: 4efe1c73e7eccc6e5ea2cf22c681857b
+SHA1: ff4b68d194a925549c0d1a977665e856b3ce4ec0
+SHA256: c56a08ac0139379c556e97f027025dcbcdf0b1cef441cbd7da7daba4d7c07849
+
+Package: abiword-dbg
+Source: abiword
+Version: 2.9.2+svn20120603-8
+Installed-Size: 41746
+Maintainer: Dmitry Smirnov <onlyjob@member.fsf.org>
+Architecture: amd64
+Depends: abiword (= 2.9.2+svn20120603-8)
+Description: debugging symbols for abiword word processor
+Homepage: http://www.abisource.com/
+Description-md5: ed01e833aa92f61b62223baad88d7c89
+Section: debug
+Priority: extra
+Filename: pool/main/a/abiword/abiword-dbg_2.9.2+svn20120603-8_amd64.deb
+Size: 32409168
+MD5sum: eb7a29c6c5031014bbd3b8039b42f8e1
+SHA1: 2e069477713be0bbd96bd14628b21f6dbf2be5d5
+SHA256: 69a0961b588968da623b55bcf3e0c0f34268de4efb3d147aa7499adcce5bd5af
+
+Package: abiword-plugin-grammar
+Source: abiword
+Version: 2.9.2+svn20120603-8
+Installed-Size: 757
+Maintainer: Dmitry Smirnov <onlyjob@member.fsf.org>
+Architecture: amd64
+Depends: libabiword-2.9 (>= 2.9.2+svn20120603), libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.12.0), liblink-grammar4 (>= 4.2.2), libstdc++6 (>= 4.1.1), abiword (= 2.9.2+svn20120603-8)
+Description: grammar checking plugin for AbiWord
+Homepage: http://www.abisource.com/
+Description-md5: 6accdf3d3fd880aac171af895fb8f340
+Tag: implemented-in::c++, role::plugin, uitoolkit::gtk, use::checking,
+ works-with::file, works-with::text
+Section: editors
+Priority: optional
+Filename: pool/main/a/abiword/abiword-plugin-grammar_2.9.2+svn20120603-8_amd64.deb
+Size: 735988
+MD5sum: 45d93be92d3ae80f7d508e5af92a0d64
+SHA1: c4d958f99944064211c5689cfd24f2b115e9f30d
+SHA256: 50ddf12c5a61c1ad2102fb8532896b9e2c308952f23e54ec4d9f85e1a377e4b3
+
+Package: abiword-plugin-mathview
+Source: abiword
+Version: 2.9.2+svn20120603-8
+Installed-Size: 1116
+Maintainer: Dmitry Smirnov <onlyjob@member.fsf.org>
+Architecture: amd64
+Depends: libabiword-2.9 (>= 2.9.2+svn20120603), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.12.0), libgtkmathview0c2a, libstdc++6 (>= 4.1.1), abiword (= 2.9.2+svn20120603-8), fonts-lyx
+Description: equation editor plugin for AbiWord
+Homepage: http://www.abisource.com/
+Description-md5: 2578fc33b80827c954fcc8789a8fd422
+Tag: implemented-in::c++, role::plugin, uitoolkit::gtk
+Section: editors
+Priority: optional
+Filename: pool/main/a/abiword/abiword-plugin-mathview_2.9.2+svn20120603-8_amd64.deb
+Size: 813834
+MD5sum: e95c9208bd140a87a0f92ba2fa5e9594
+SHA1: e6ad9357cfc633ab9be5ba5507e9bf293c63a03a
+SHA256: 36a270c1991566a4ec4742280b44e306ea698d640fbd5902d552d43d4a36b3c1
+
+Package: libabiword-2.9
+Source: abiword
+Version: 2.9.2+svn20120603-8
+Installed-Size: 8694
+Maintainer: Dmitry Smirnov <onlyjob@member.fsf.org>
+Architecture: amd64
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libenchant1c2a (>= 1.6), libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.9.0), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgsf-1-114 (>= 1.14.9), libgtk-3-0 (>= 3.0.0), libjpeg8 (>= 8c), libpango1.0-0 (>= 1.14.0), libpng12-0 (>= 1.2.13-4), libraptor2-0 (>= 2.0.8), librasqal3 (>= 0.9.29), librdf0 (>= 1.0.15), librsvg2-2 (>= 2.14.4), libstdc++6 (>= 4.6), libwmf0.2-7 (>= 0.2.8.4), libwv-1.2-4 (>= 1.2.9), libx11-6, libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Pre-Depends: multiarch-support
+Description: efficient, featureful word processor with collaboration -- shared library
+Multi-Arch: same
+Homepage: http://www.abisource.com/
+Description-md5: 2574ef9e41c920826760e47a0ed6956c
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/a/abiword/libabiword-2.9_2.9.2+svn20120603-8_amd64.deb
+Size: 2735972
+MD5sum: af907e2c2bba02ec87929b53eca1e13d
+SHA1: eeca4769998abfcf24c3a33b62ef723e86985321
+SHA256: 843fe4136f66b990653654609200d8c1e95a028618332f4d0f6fa0fc82baf284
+
+Package: libabiword-2.9-dev
+Source: abiword
+Version: 2.9.2+svn20120603-8
+Installed-Size: 751
+Maintainer: Dmitry Smirnov <onlyjob@member.fsf.org>
+Architecture: amd64
+Depends: libabiword-2.9 (= 2.9.2+svn20120603-8), libfribidi-dev, libglib2.0-dev, libgsf-1-dev, libwv-dev, libenchant-dev, librdf0-dev, librasqal3-dev, libcairo2-dev, libpango1.0-dev, libgtk-3-dev, librsvg2-dev
+Description: efficient, featureful word processor with collaboration -- development files
+Homepage: http://www.abisource.com/
+Description-md5: 436e6a4c05ce2b1ec6367b588ff4c9d7
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/a/abiword/libabiword-2.9-dev_2.9.2+svn20120603-8_amd64.deb
+Size: 731740
+MD5sum: 672aa6a99e87a5873db04e1a974bbd01
+SHA1: d0fd309b2d476f768d4b02ae52218243235c94e8
+SHA256: 0651c03eea78f9f2a1670fca80d0bb48ab40533d326fe2c05f159f5d53420a9d
+
+Package: abntex
+Version: 0.9~beta2-5.1
+Installed-Size: 678
+Maintainer: Otavio Salvador <otavio@debian.org>
+Architecture: all
+Depends: dpkg (>= 1.14.18), tex-common (>= 3), texlive-latex-recommended, texlive-lang-portuguese, texlive-fonts-recommended
+Description: LaTeX class for writing documents in ABNT standard
+Description-md5: f24f06318565f68622fece1a9de7960d
+Tag: role::app-data, works-with-format::tex, works-with::text
+Section: tex
+Priority: optional
+Filename: pool/main/a/abntex/abntex_0.9~beta2-5.1_all.deb
+Size: 328514
+MD5sum: 7ba9ea03bfb808e9111e74e0c2340681
+SHA1: d78fe7ab0beb0f9c7f614a0b7c4be62291463414
+SHA256: 0ec6afff53cdd1b24d4162b39af6fa3bd0e93a1f4f6396c8a7a0acc39e0ec87d
+
+Package: abook
+Version: 0.6.0~pre2-3
+Installed-Size: 283
+Maintainer: Gerfried Fuchs <rhonda@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.7), libncursesw5 (>= 5.6+20070908), libreadline6 (>= 6.0), libtinfo5, debconf (>= 0.5) | debconf-2.0
+Enhances: mutt
+Description: text-based ncurses address book application
+Homepage: http://abook.sourceforge.net/
+Description-md5: b3df98dd5a16801ef603bb31eff45bf6
+Tag: implemented-in::c, interface::text-mode, role::program,
+ scope::application, uitoolkit::ncurses, use::organizing,
+ works-with::pim
+Section: mail
+Priority: optional
+Filename: pool/main/a/abook/abook_0.6.0~pre2-3_amd64.deb
+Size: 89640
+MD5sum: 7a323a5a7a7441963904d0e80f77a192
+SHA1: 00776d6891abb9b64404920e1dbc9e95ba7f9efb
+SHA256: 576b56d2d6b5a5282e1ae1611ceab235225c79d4f0c76c44117b531bcb910ea0
+
+Package: abootimg
+Version: 0.6-1
+Installed-Size: 48
+Maintainer: Heiko Stuebner <mmind@debian.org>
+Architecture: amd64
+Depends: libblkid1 (>= 2.16), libc6 (>= 2.2.5)
+Description: Tool to read/write/update android boot images
+Homepage: http://gitorious.org/ac100/abootimg
+Description-md5: 44be41a806690df16e9af0e9fe965a7a
+Tag: admin::boot, implemented-in::c, role::program, scope::utility
+Section: admin
+Priority: extra
+Filename: pool/main/a/abootimg/abootimg_0.6-1_amd64.deb
+Size: 15468
+MD5sum: 3adff23489c780a135bc6ad2bf4247ac
+SHA1: de8c09f5ecc9cfc30e6d6e161e4870206406e1df
+SHA256: 49bdb2fcc71b6ceb8368425c984925022384f864bdef143b21258bf04938e18c
+
+Package: abr2gbr
+Version: 1:1.0.2-2
+Installed-Size: 28
+Maintainer: alice ferrazzi (aliceinwire) <aliceinwire@gnumerica.org>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5), libglib2.0-0 (>= 2.24.0)
+Description: Converts PhotoShop brushes to GIMP
+Homepage: http://www.sunnyspot.org/gimp/tools.html
+Description-md5: 19edd2d5c033d3a49c4fcf4b17cbdcf2
+Tag: implemented-in::c, interface::commandline, role::program,
+ scope::utility, use::converting
+Section: graphics
+Priority: extra
+Filename: pool/main/a/abr2gbr/abr2gbr_1.0.2-2_amd64.deb
+Size: 6914
+MD5sum: f44651b758f79364bbcf621438abcaf3
+SHA1: 25d34109614e29387adccf4baf6943a0f7bdbd02
+SHA256: 818f7393c715b8c686285ad5eaeb4a0775f9b467f68aa46b60d77d6db802364c
+
+Package: abraca
+Version: 0.7.0-1
+Installed-Size: 690
+Maintainer: Fabrizio Regalli <fabreg@fabreg.it>
+Architecture: amd64
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.2.5), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee2 (>= 0.5.0), libglib2.0-0 (>= 2.24.0), libgtk-3-0 (>= 3.0.0), libpango1.0-0 (>= 1.14.0), libxmmsclient-glib1 (>= 0.6DrMattDestruction), libxmmsclient6 (>= 0.7DrNo)
+Recommends: xmms2
+Description: Simple and powerful graphical client for XMMS2
+Homepage: http://abraca.github.com/Abraca/
+Description-md5: 30918cdf54987a6e647b0f16f5511db7
+Tag: implemented-in::c, interface::x11, role::program, suite::xmms2,
+ uitoolkit::gtk, use::playing, works-with::audio, x11::application
+Section: sound
+Priority: optional
+Filename: pool/main/a/abraca/abraca_0.7.0-1_amd64.deb
+Size: 217390
+MD5sum: aedba2ec3391d91f90889dab38e7f011
+SHA1: 3fe1dbdcef396e796abf20ed130d1d141eefa5c2
+SHA256: 2921c581d53b21b548af564c9fb3bc074a744d084982fb79ab2d40a946d76ba8
+
+Package: abtransfers
+Version: 0.0.3.0-2
+Installed-Size: 805
+Maintainer: Micha Lenk <micha@debian.org>
+Architecture: amd64
+Depends: libaqbanking34 (>= 5.0.6), libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libgwengui-qt4-0, libgwenhywfar60 (>= 3.11.6), libqtcore4 (>= 4:4.7.0~beta1), libqtgui4 (>= 4:4.6.1), libstdc++6 (>= 4.1.1)
+Description: simple online banking application for online money transfers
+Homepage: http://schmufu.dyndns.org/dokuwiki/ab_transfer:start
+Description-md5: 927d5bc16c80288d06812f4a5b6fbcb6
+Section: utils
+Priority: extra
+Filename: pool/main/a/abtransfers/abtransfers_0.0.3.0-2_amd64.deb
+Size: 366726
+MD5sum: f12ecac1d4dafb7b71f728d02114f6b1
+SHA1: d3ca51a9b916b3d8733e4013a5bdf45450ca87fa
+SHA256: 85a6449de8f8a88f67f0b50ae2d4e455b3a0543b75b453ab2ed9a2bb233e703f
+
+Package: accerciser
+Version: 3.4.1-1
+Installed-Size: 6135
+Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+Architecture: all
+Depends: dconf-gsettings-backend | gsettings-backend, python, python-support (>= 0.90.0), ipython (>= 0.12), gir1.2-atk-1.0, gir1.2-gdkpixbuf-2.0, gir1.2-gtk-3.0, gir1.2-pango-1.0, gir1.2-wnck-3.0, python-cairo, python-pyatspi2 (>= 2.1.5)
+Description: interactive Python accessibility explorer for the GNOME desktop
+Homepage: https://live.gnome.org/Accerciser
+Description-md5: 7806dc55e95ea2b46c6c1541f59644ce
+Tag: implemented-in::python, role::program
+Section: gnome
+Priority: extra
+Filename: pool/main/a/accerciser/accerciser_3.4.1-1_all.deb
+Size: 3312070
+MD5sum: 4fdc88163cab315f98a13c3342f8ac13
+SHA1: ab52c8053770b198d88c4a018a3fd7a5bfce65ff
+SHA256: 9719667114321c8a87ec962f11fed839647170572fa33159ee23602388412b59
+
+Package: libaccess-modifier-checker-java
+Source: access-modifier-checker
+Version: 1.0-4
+Installed-Size: 136
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: libannotation-indexer-java, libasm3-java, libmaven2-core-java
+Recommends: libmetainf-services-java
+Description: Maven plugin for custom access modifier checking
+Homepage: https://github.com/kohsuke/access-modifier
+Description-md5: c39557e91f83d3a1ff5b4a6b03e9f061
+Section: java
+Priority: optional
+Filename: pool/main/a/access-modifier-checker/libaccess-modifier-checker-java_1.0-4_all.deb
+Size: 32282
+MD5sum: dead3f5203a8ebfd18a7bf15bc054e05
+SHA1: d4ed482ea496df55627a69f986057f4ee58d7700
+SHA256: cba0b4d30585180dc214183c6dea79d3a46512069854d096a8272d84f0367b1d
+
+Package: libaccess-modifier-checker-java-doc
+Source: access-modifier-checker
+Version: 1.0-4
+Installed-Size: 715
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Architecture: all
+Depends: default-jdk-doc, libannotation-indexer-java-doc, libmaven2-core-java-doc
+Recommends: libmetainf-services-java-doc
+Suggests: libaccess-modifier-checker-java
+Description: Documentation for libaccess-modifier-checker-java
+Homepage: https://github.com/kohsuke/access-modifier
+Description-md5: 31ad48b93f9aca6c1e896cf8f57bb516
+Tag: devel::doc, devel::lang:java, made-of::html, role::documentation
+Section: doc
+Priority: optional
+Filename: pool/main/a/access-modifier-checker/libaccess-modifier-checker-java-doc_1.0-4_all.deb
+Size: 135398
+MD5sum: 124b0818708f592c4d8dffd2e41701b6
+SHA1: 715069c47acef944a7d917aca4f35c7c26017822
+SHA256: 5370c0c2be7949423e1bb5f8bb881906a55de6ba2a1db395bd97c6cbe4d0c370
+
+Package: accessodf
+Version: 0.1-2
+Installed-Size: 377
+Maintainer: Sebastian Humenda <shumenda@gmx.de>
+Architecture: all
+Depends: libcommons-collections3-java, libreoffice-java-common, libreoffice-writer, default-jre
+Description: Libreoffice extension to check accessibility of ODF documents
+Homepage: http://sourceforge.net/p/accessodf
+Description-md5: 76fcc7bc4bb45d4440b4b08dedefac51
+Section: java
+Priority: extra
+Filename: pool/main/a/accessodf/accessodf_0.1-2_all.deb
+Size: 239470
+MD5sum: e36748f72ae783d3db1b459e7f233d77
+SHA1: d45f708a692daf01f84d38e27e07b829d7e1e824
+SHA256: 79c08322e5f1b38ae06cb9727686e4ab1f0590a86115023a2ac5b2e24c15c69b
+
+Package: accountsservice
+Version: 0.6.21-8
+Installed-Size: 682
+Maintainer: Alessio Treglia <alessio@debian.org>
+Architecture: amd64
+Depends: dbus, libaccountsservice0 (= 0.6.21-8), libc6 (>= 2.2.5), libglib2.0-0 (>= 2.31.8), libpolkit-gobject-1-0 (>= 0.99)
+Suggests: gnome-control-center
+Description: query and manipulate user account information
+Homepage: http://cgit.freedesktop.org/accountsservice/
+Description-md5: 8aeed0a03c7cd494f0c4b8d977483d7e
+Tag: admin::configuring, admin::user-management, implemented-in::c,
+ interface::daemon, protocol::TODO, role::program
+Section: admin
+Priority: optional
+Filename: pool/main/a/accountsservice/accountsservice_0.6.21-8_amd64.deb
+Size: 73438
+MD5sum: 50e9a8911faf71dcab29331c696fa771
+SHA1: aca061eada0dfecc016289364ce9ca9b5333fb19
+SHA256: 0fa0b6e1e04f4ac97db3f552e1210b8855872e2f81ee90d7e1e95d6cd87163b5
+
+Package: gir1.2-accountsservice-1.0
+Source: accountsservice
+Version: 0.6.21-8
+Installed-Size: 48
+Maintainer: Alessio Treglia <alessio@debian.org>
+Architecture: amd64
+Replaces: gir1.2-accountservice-1.0 (<< 0.6.12-4)
+Depends: gir1.2-glib-2.0, libaccountsservice0 (>= 0.6.13)
+Breaks: gir1.2-accountservice-1.0 (<< 0.6.12-4)
+Description: GObject introspection data for AccountService
+Homepage: http://cgit.freedesktop.org/accountsservice/
+Description-md5: 3e307108d5acfea1c79fd66a238baaf2
+Tag: role::shared-lib
+Section: introspection
+Priority: optional
+Filename: pool/main/a/accountsservice/gir1.2-accountsservice-1.0_0.6.21-8_amd64.deb
+Size: 11530
+MD5sum: 94eadeca369111390205ffe9d4474dcd
+SHA1: db15d67dcf534cc50df1ef1beb2211da38552e3e
+SHA256: 1951c923ac7adf904092015369b6600df42500275bb702f44b5848519e2a41ed
+
+Package: libaccountsservice-dbg
+Source: accountsservice
+Version: 0.6.21-8
+Installed-Size: 802
+Maintainer: Alessio Treglia <alessio@debian.org>
+Architecture: amd64
+Depends: libaccountsservice0 (= 0.6.21-8)
+Description: query and manipulate user account information - debug
+Homepage: http://cgit.freedesktop.org/accountsservice/
+Description-md5: 67e2c3a1e0dc7dd3b34232ab48d143a8
+Section: debug
+Priority: extra
+Filename: pool/main/a/accountsservice/libaccountsservice-dbg_0.6.21-8_amd64.deb
+Size: 227360
+MD5sum: e69612be5d60e7a73579c57f270bacba
+SHA1: c4cc5350d9bd7127c18471f0dcb7180f6661e367
+SHA256: fe6ec683c487ee85267ddcebce259731a60b350e882b45e561904b2a71c3cbd4
+
+Package: libaccountsservice-dev
+Source: accountsservice
+Version: 0.6.21-8
+Installed-Size: 102
+Maintainer: Alessio Treglia <alessio@debian.org>
+Architecture: amd64
+Depends: libaccountsservice0 (= 0.6.21-8), libgirepository1.0-dev (>= 0.9.12), libglib2.0-dev (>= 2.25.11), libpolkit-gobject-1-dev
+Description: query and manipulate user account information - header files
+Homepage: http://cgit.freedesktop.org/accountsservice/
+Description-md5: d0607148cea2974f2cc311a5e0bab4f9
+Tag: devel::library, role::devel-lib
+Section: libdevel
+Priority: optional
+Filename: pool/main/a/accountsservice/libaccountsservice-dev_0.6.21-8_amd64.deb
+Size: 15438
+MD5sum: 204968be0ff3dd102f82c7bb06a3e015
+SHA1: 93a332b5fa24e46e9e00bbb24b072f52ca57a48b
+SHA256: f457988c9ebafd3a32e2c6828fe1f07d9a05e38fbc3a94ecad78162ec143dd8c
+
+Package: libaccountsservice0
+Source: accountsservice
+Version: 0.6.21-8
+Installed-Size: 316
+Maintainer: Alessio Treglia <alessio@debian.org>
+Architecture: amd64
+Depends: libc6 (>= 2.2.5), libglib2.0-0 (>= 2.31.8)
+Breaks: accountsservice (<< 0.6.5)
+Description: query and manipulate user account information - shared libraries
+Homepage: http://cgit.freedesktop.org/accountsservice/
+Description-md5: d536aa425d73c3ead2f37bd9a771e648
+Tag: role::shared-lib
+Section: libs
+Priority: optional
+Filename: pool/main/a/accountsservice/libaccountsservice0_0.6.21-8_amd64.deb
+Size: 87152
+MD5sum: 94dc59bb1d391ce0e2ee91740e3d71b1
+SHA1: db6fbb134389f200b5b7217784cdb38b3b616247
+SHA256: 59909ae0d0808dba104bba95a4de7173dfc92cc3542ae69a029e1eaaccd21a60
+
+Package: acct
+Version: 6.5.5-1
+Installed-Size: 380
+Maintainer: Mathieu Trudel-Lapierre <mathieu.tl@gmail.com>
+Architecture: amd64
+Depends: dpkg (>= 1.15.4) | install-info, libc6 (>= 2.3)
+Description: The GNU Accounting utilities for process and login accounting
+Homepage: http://www.gnu.org/software/acct/
+Description-md5: b24f45ef7d67937aa65ecb8e36a7e5a1
+Tag: admin::accounting, admin::user-management, interface::daemon,
+ role::program, suite::gnu, use::monitor, use::storing, use::viewing,
+ works-with::logfile, works-with::software:running
+Section: admin
+Priority: optional
+Filename: pool/main/a/acct/acct_6.5.5-1_amd64.deb
+Size: 120424
+MD5sum: d7deb649c41ab436270cd7746b7b4cd8
+SHA1: 71cca4985c7fb87ec8e3ac8aeb63f936c7ae7297
+SHA256: 1e5719f704770353cb53a3ff4e04bb66a601607f1d1fc5fbd32ffce504a4bd20
+
+Package: ace-gperf
+Source: ace
+Version: 6.0.3+dfsg-0.1
+Installed-Size: 200
+Maintainer: Debian ACE+TAO maintainers <pkg-ace-devel@lists.alioth.debian.org>
+Architecture: amd64
+Replaces: gperf-ace (<< 5.7.7-1)
+Depends: libace-6.0.3, libc6 (>= 2.2.5), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), dpkg (>= 1.15.4) | install-info
+Breaks: gperf-ace (<< 5.7.7-1)
+Description: ACE perfect hash function generator
+Homepage: http://www.cs.wustl.edu/~schmidt/ACE.html
+Description-md5: d2820ae34bb525c6060ea2b7be2a7746
+Tag: role::program
+Section: devel
+Priority: optional
+Filename: pool/main/a/ace/ace-gperf_6.0.3+dfsg-0.1_amd64.deb
+Size: 105850
+MD5sum: 1847866890274fb792edef7d97db8277
+SHA1: 50873a4c979fffa399692b6ec479f63ccf3086af
+SHA256: 27d640a23182bf35667d9f08532a01314b992e26e1b9815533cdb29db87546e7

@@ -1,0 +1,262 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontology1395738954259 "http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Ontology1395738954259="http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#conflicts -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1395738954259;conflicts">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:range rdf:resource="&Ontology1395738954259;Package"/>
+        <rdfs:domain rdf:resource="&Ontology1395738954259;Package"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#depends -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1395738954259;depends">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:range rdf:resource="&Ontology1395738954259;Package"/>
+        <rdfs:domain rdf:resource="&Ontology1395738954259;Package"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#recommends -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1395738954259;recommends">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:range rdf:resource="&Ontology1395738954259;Package"/>
+        <rdfs:domain rdf:resource="&Ontology1395738954259;Package"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#suggests -->
+
+    <owl:ObjectProperty rdf:about="&Ontology1395738954259;suggests">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="&Ontology1395738954259;Package"/>
+        <rdfs:domain rdf:resource="&Ontology1395738954259;Package"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#Description -->
+
+    <owl:DatatypeProperty rdf:about="&Ontology1395738954259;Description">
+        <rdfs:domain rdf:resource="&Ontology1395738954259;Package"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#Section -->
+
+    <owl:DatatypeProperty rdf:about="&Ontology1395738954259;Section"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#Version -->
+
+    <owl:DatatypeProperty rdf:about="&Ontology1395738954259;Version">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="&Ontology1395738954259;Package"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#Debian_Package -->
+
+    <owl:Class rdf:about="&Ontology1395738954259;Debian_Package">
+        <rdfs:subClassOf rdf:resource="&Ontology1395738954259;Package"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#Fedora_package -->
+
+    <owl:Class rdf:about="&Ontology1395738954259;Fedora_package">
+        <rdfs:subClassOf rdf:resource="&Ontology1395738954259;Package"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#Package -->
+
+    <owl:Class rdf:about="&Ontology1395738954259;Package"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#A -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1395738954259;A">
+        <rdf:type rdf:resource="&Ontology1395738954259;Debian_Package"/>
+        <depends rdf:resource="&Ontology1395738954259;B"/>
+        <recommends rdf:resource="&Ontology1395738954259;G"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#B -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1395738954259;B">
+        <rdf:type rdf:resource="&Ontology1395738954259;Debian_Package"/>
+        <depends rdf:resource="&Ontology1395738954259;C"/>
+        <depends rdf:resource="&Ontology1395738954259;E"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#C -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1395738954259;C">
+        <rdf:type rdf:resource="&Ontology1395738954259;Debian_Package"/>
+        <suggests rdf:resource="&Ontology1395738954259;I"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#D -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1395738954259;D">
+        <rdf:type rdf:resource="&Ontology1395738954259;Debian_Package"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#E -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1395738954259;E">
+        <rdf:type rdf:resource="&Ontology1395738954259;Debian_Package"/>
+        <recommends rdf:resource="&Ontology1395738954259;C"/>
+        <depends rdf:resource="&Ontology1395738954259;F"/>
+        <conflicts rdf:resource="&Ontology1395738954259;J"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#F -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1395738954259;F">
+        <rdf:type rdf:resource="&Ontology1395738954259;Debian_Package"/>
+        <suggests rdf:resource="&Ontology1395738954259;D"/>
+        <conflicts rdf:resource="&Ontology1395738954259;I"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#G -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1395738954259;G">
+        <rdf:type rdf:resource="&Ontology1395738954259;Debian_Package"/>
+        <recommends rdf:resource="&Ontology1395738954259;H"/>
+        <suggests rdf:resource="&Ontology1395738954259;J"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#H -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1395738954259;H">
+        <rdf:type rdf:resource="&Ontology1395738954259;Debian_Package"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#I -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1395738954259;I">
+        <rdf:type rdf:resource="&Ontology1395738954259;Debian_Package"/>
+        <conflicts rdf:resource="&Ontology1395738954259;F"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2014/2/Ontology1395738954259.owl#J -->
+
+    <owl:NamedIndividual rdf:about="&Ontology1395738954259;J">
+        <rdf:type rdf:resource="&Ontology1395738954259;Debian_Package"/>
+        <conflicts rdf:resource="&Ontology1395738954259;E"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
